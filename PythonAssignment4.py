@@ -10,7 +10,7 @@ def addItemToList(item):
 	if(item in myUniqueList):
 		print("Item already Exists")
 		itemFound=True
-	elif(itemFound==False):
+	if(itemFound==False):
 		print("Item does not exists!!Adding new Item")
 		myUniqueList.append(item)
 		result=True
