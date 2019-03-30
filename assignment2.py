@@ -25,8 +25,12 @@ def artists(singers):
 def songName(songList):
 	for song in songList:
 		print(song)
+def isHit():
+	result=True
+	return result
 songGenre()
 releaseYear()
 artists(singers)
 songName(songList)
+print("Hit Album", isHit())
 #print("genre:", genre) here we will get NameError as variable genre is having local scope and is accessible only within the function
